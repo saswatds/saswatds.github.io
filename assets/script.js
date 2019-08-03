@@ -98,10 +98,11 @@ var particleConfig = {
   },
   typedConfig = {
     strings: [
-      '<strong>Hi,</strong> ^1000 I am Saswat',
+      '<strong>Hi.</strong>^2000',
+      'I am <strong>Saswat</strong>^1000',
       'I am an <strong>artist</strong>',
       'I am a <strong>creator</strong>',
-      'I am a <strong>developer</strong>'
+      'I am a <strong>developer.</strong>'
     ],
 
     // Speed settings
