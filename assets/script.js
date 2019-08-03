@@ -100,9 +100,10 @@ var particleConfig = {
     strings: [
       '<strong>Hi.</strong>^2000',
       'I am <strong>Saswat</strong>^1000',
-      'I am an <strong>artist</strong>',
-      'I am a <strong>creator</strong>',
-      'I am a <strong>developer.</strong>'
+      'an <strong>artist</strong>',
+      'a <strong>creator</strong>',
+      'a <strong>hacker</strong>',
+      'a <strong>developer.</strong>'
     ],
 
     // Speed settings
@@ -119,4 +120,4 @@ var particleConfig = {
 
 // Start the particle rendering
 particlesJS("particles", particleConfig);
-new Typed('#typed .placeholder', typedConfig);
+new Typed('#typewriter .placeholder', typedConfig);
